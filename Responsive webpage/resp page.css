@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {font-family: sans-serif;
+
+}
+
+header {
+
+    display: flex;
+     width: 80%;
+    margin: auto;
+    height: 10 vh;
+    align-items: center;
+
+
+}
+h4 {    background: linear-gradient(to right, rgb(10, 24, 104), rgb(88, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;}
+
+img {height: 34px;
+margin: 10px;
+}
+
+.logo-container, .nav-links, .cart {
+    display: flex;
+ align-items: center;
+}
+
+
+.logo-container {
+
+flex: 1;
+}
+
+nav {
+
+flex: 2;
+}
+ 
+nav ul li {
+  display: inline-block;
+        list-style: none;
+    justify-content: space-around;
+}
+
+.nav-links { justify-content: space-around;
+ 
+        }
+
+        .nav-link {text-decoration: none;
+color: dimgray;
+display: inline-block;
+text-align:centers;
+align-items: center;
+padding-left: 30px;
+ 
+}
+
+
+.cart {
+flex: 1;
+justify-content: center;
+} 
+
+
+section {width: 70%;
+margin: auto;
+margin-top: 100px;}
+ 
+.presentation {
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.introduction {
+ 
+    flex: 1;}
+
+    .intro-text h1  {
+        font-size: 44px;
+        font-weight: 500;
+        background: linear-gradient(to right, #333, rgb(51, 133, 51));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent ;
+    }
+    .intro-text p {
+        margin: 10px;
+        background: linear-gradient(to right, #333, rgb(170, 87, 31));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent ;
+    }
+
+    .cover {flex: 1;}
+
+.time {height: 400px;
+filter: drop-shadow(5px 5px 5px #777);
+animation: drop 2s ease ;
+}
+
+.cta {padding-top: 40px;
+}
+.cta-select {
+    background-color:#777;
+    border: 2px, solid, #964;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    
+ margin: 0 0 15px 0;
+    
+}
+.cta-select a {
+    color: aliceblue;
+     
+    font-size: 18px;
+    text-decoration: none;
+}
+.cta-add  {
+    background-color:white;
+    border: 2px, solid,#999;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0 0 0 15px;
+    
+}
+.cta-add a {
+    font-weight: 550;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+@keyframes drop {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+   
+}

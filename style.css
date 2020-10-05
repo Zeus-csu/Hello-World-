@@ -22,8 +22,9 @@ font-family: sans-serif;
 padding: 15px 5px;
 display: inline-block;
 }
-#showcase {background-image: url(/1224495436.jpg);
+#showcase {background-image: url(1224495436.jpg);
 background-position: top center;
+background-attachment: ;
 height: 200px;
 }
 #showcase h2{ color: #fff;
